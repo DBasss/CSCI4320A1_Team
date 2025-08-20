@@ -43,6 +43,18 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+		char[] letters = input.toCharArray();
+		int k = 0;
+
+		for (int i = input.length() - 1; i >= 0; i--) {
+			letters[k] = input.charAt(i);
+			System.out.println(input.charAt(i));
+			k++;
+		}
+
+		String reverse = "";
+		String reversed = reverse.copyValueOf(letters);
+
+	  return reversed;
 	}
 }
