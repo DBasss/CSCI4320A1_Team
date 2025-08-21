@@ -34,7 +34,7 @@ public class Person1 {
 			return input; // No input rotates
 		}
 
-		return unput.substring(2) + input.substring(0,2);
+		return input.substring(2) + input.substring(0,2);
 	}
 	
 	/**
